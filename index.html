@@ -1,20 +1,13 @@
 <html>
 	<head>
-	
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
-
 	<style type="text/css">
 		@import url(index.css) screen and (min-width: 481px);
 		@import url(index_s.css) screen and (max-width: 480px);
 	</style>
-	
 		<title>Convert Text to Hashtag</title>
-		
-		
 		<script type="text/javascript" src="script.js"></script>
-
 	</head>
-
 	<body>
 		<div class="title">
 			Convert Text to Hashtag
@@ -22,12 +15,11 @@
 		<div class="description">
 			Input欄にテキストを入力して「Tagify」を押すと、ハッシュタグ化して出力されます。<br>
 			「Tagify &amp; Tweet」を押すと、ハッシュタグ化してツイートできます。
-			
 		</div>
 		<div class="main">
 			<form name="form">
 				Input<br />
-				<textarea cols="90" rows="4" id="input"></textarea>
+				<textarea id="input" rows="4" cols="70"></textarea>
 				<br />
 				<input type="button" onClick="convert()" value="Tagify">
 				<br /><br />
@@ -38,6 +30,5 @@
 				<input type="button" onClick="tweet()" value="Tagify & Tweet">
 			</form>
 		</div>
-
 	</body>
 </html>
